@@ -9,7 +9,7 @@ export default function App() {
       style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
     >
       <Header />
-      <main style={{ flexGrow: 1 }}>
+      <main style={{ flexGrow: 1, display: "flex" }}>
         <Outlet />
       </main>
       <Footer />

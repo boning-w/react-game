@@ -1,11 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
+import Dashboard from "../components/Dashboard";
 
 export const LINKS = {
   DASHBOARD: {
     name: "dashboard",
     path: "/",
-    element: <p>Hello World</p>,
+    element: <Dashboard />,
   },
   TICTACTOE: {
     name: "tic-tac-toe",
