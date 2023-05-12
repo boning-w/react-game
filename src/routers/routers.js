@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Dashboard from "../components/Dashboard";
+import GameSlidingPuzzle from "../games/sliding-puzzle/GameSlidingPuzzle";
 
 export const LINKS = {
   DASHBOARD: {
@@ -16,7 +17,7 @@ export const LINKS = {
   SLIDINGPUZZLE: {
     name: "sliding-puzzle",
     path: "/sliding-puzzle",
-    element: <p>Sliding Puzzle</p>,
+    element: <GameSlidingPuzzle />,
   },
 };
 
