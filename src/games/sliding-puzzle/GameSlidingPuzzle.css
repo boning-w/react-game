@@ -1,0 +1,11 @@
+.sliding-puzzle-cell {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .sliding-puzzle-cell {
+    width: 25vw;
+    height: 25vw;
+  }
+}
